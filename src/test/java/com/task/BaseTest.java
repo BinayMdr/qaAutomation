@@ -37,9 +37,9 @@ public class BaseTest
         return landingPage;
     }
 
-//    @AfterMethod(alwaysRun = true)
-//    public void tearDown()
-//    {
-//        driver.close();
-//    }
+   @AfterMethod(alwaysRun = true)
+   public void tearDown()
+   {
+       driver.quit();
+   }
 }
