@@ -1,0 +1,5 @@
+Prior to conducting the tests, I first studied the website. Additionally, I did some study on some of the components that would be needed while building automation codes. For building the automation programs for the work, I used Selenium with Java. I have defined two distinct functions ("validatePrice" and "validateCartItem") in the ValidateTest Class for the two tasks.In order to write scripts that run effectively and efficiently, I designed an AbstractComponent Class that includes the shared functions that are utilized by other classes. For the purpose of rerouting the page to the Flipkart landing page, the LandingPage Class was developed. A variety of key-value pairs that have been utilized in various contexts may be found in GlobalData.properties.
+
+Note:
+For the First Task: Run validatePrice.xml
+For the Second Task: Run validateCartItem.xml 
